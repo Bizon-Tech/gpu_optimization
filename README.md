@@ -24,6 +24,8 @@ Add the following line at the end
 @reboot echo 'password' | sudo -S bash /home/bizon/.gpu/gpu_tdp.sh
 ```  
 
+Replace the 'password' for your password and save the file. 
+
 4. Change the gpu_tdp.sh TDP according to your target. 
 
 Example: nvidia-smi -pl 180 - nvidia-smi -pl 220 
