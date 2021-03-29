@@ -7,6 +7,7 @@
 1. Download the repo to /home/bizon
 2. Create a folder ".gpu" and copy the gpu_tdp.sh inside with executable rights
 ```bash
+git clone https://github.com/Bizon-Tech/gpu_optimization.git
 mkdir .gpu
 cd gpu_optimization
 cp gpu_tdp.sh /home/bizon/.gpu
